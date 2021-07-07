@@ -16,6 +16,8 @@ public class Exercicio1 {
 		soma = x + y;
 		
 		System.out.printf("SOMA: %d", soma);
+		
+		sc.close();
 
 	}
 
