@@ -18,8 +18,9 @@ public class Rectangle {
 	}
 	
 	public double diagonal() {
-		double diagonal = Math.sqrt((width * width) + (height * height));
-		return diagonal;
+		
+		return Math.sqrt((width * width) + (height * height));
+		
 	}
 
 }
